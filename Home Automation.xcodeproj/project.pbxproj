@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1FECA51DB15393008D8F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FECA41DB15393008D8F37 /* AppDelegate.swift */; };
+		EC1FECA71DB15393008D8F37 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FECA61DB15393008D8F37 /* RootViewController.swift */; };
+		EC1FECA91DB15393008D8F37 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FECA81DB15393008D8F37 /* DataViewController.swift */; };
+		EC1FECAB1DB15393008D8F37 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FECAA1DB15393008D8F37 /* ModelController.swift */; };
+		EC1FECAE1DB15393008D8F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1FECAC1DB15393008D8F37 /* Main.storyboard */; };
+		EC1FECB01DB15393008D8F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1FECAF1DB15393008D8F37 /* Assets.xcassets */; };
+		EC1FECB31DB15393008D8F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1FECB11DB15393008D8F37 /* LaunchScreen.storyboard */; };
+		EC1FECBE1DB15393008D8F37 /* Home_AutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FECBD1DB15393008D8F37 /* Home_AutomationTests.swift */; };
+		EC1FECC91DB15393008D8F37 /* Home_AutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FECC81DB15393008D8F37 /* Home_AutomationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1FECBA1DB15393008D8F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1FEC991DB15393008D8F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1FECA01DB15393008D8F37;
+			remoteInfo = "Home Automation";
+		};
+		EC1FECC51DB15393008D8F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1FEC991DB15393008D8F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1FECA01DB15393008D8F37;
+			remoteInfo = "Home Automation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1FECA11DB15393008D8F37 /* Home Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Automation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1FECA41DB15393008D8F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1FECA61DB15393008D8F37 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		EC1FECA81DB15393008D8F37 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		EC1FECAA1DB15393008D8F37 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		EC1FECAD1DB15393008D8F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1FECAF1DB15393008D8F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1FECB21DB15393008D8F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1FECB41DB15393008D8F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1FECB91DB15393008D8F37 /* Home AutomationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home AutomationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1FECBD1DB15393008D8F37 /* Home_AutomationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_AutomationTests.swift; sourceTree = "<group>"; };
+		EC1FECBF1DB15393008D8F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1FECC41DB15393008D8F37 /* Home AutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home AutomationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1FECC81DB15393008D8F37 /* Home_AutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_AutomationUITests.swift; sourceTree = "<group>"; };
+		EC1FECCA1DB15393008D8F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1FEC9E1DB15393008D8F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FECB61DB15393008D8F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FECC11DB15393008D8F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1FEC981DB15393008D8F37 = {
+			isa = PBXGroup;
+			children = (
+				EC1FECA31DB15393008D8F37 /* Home Automation */,
+				EC1FECBC1DB15393008D8F37 /* Home AutomationTests */,
+				EC1FECC71DB15393008D8F37 /* Home AutomationUITests */,
+				EC1FECA21DB15393008D8F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1FECA21DB15393008D8F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FECA11DB15393008D8F37 /* Home Automation.app */,
+				EC1FECB91DB15393008D8F37 /* Home AutomationTests.xctest */,
+				EC1FECC41DB15393008D8F37 /* Home AutomationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1FECA31DB15393008D8F37 /* Home Automation */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FECA41DB15393008D8F37 /* AppDelegate.swift */,
+				EC1FECA61DB15393008D8F37 /* RootViewController.swift */,
+				EC1FECA81DB15393008D8F37 /* DataViewController.swift */,
+				EC1FECAA1DB15393008D8F37 /* ModelController.swift */,
+				EC1FECAC1DB15393008D8F37 /* Main.storyboard */,
+				EC1FECAF1DB15393008D8F37 /* Assets.xcassets */,
+				EC1FECB11DB15393008D8F37 /* LaunchScreen.storyboard */,
+				EC1FECB41DB15393008D8F37 /* Info.plist */,
+			);
+			path = "Home Automation";
+			sourceTree = "<group>";
+		};
+		EC1FECBC1DB15393008D8F37 /* Home AutomationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FECBD1DB15393008D8F37 /* Home_AutomationTests.swift */,
+				EC1FECBF1DB15393008D8F37 /* Info.plist */,
+			);
+			path = "Home AutomationTests";
+			sourceTree = "<group>";
+		};
+		EC1FECC71DB15393008D8F37 /* Home AutomationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FECC81DB15393008D8F37 /* Home_AutomationUITests.swift */,
+				EC1FECCA1DB15393008D8F37 /* Info.plist */,
+			);
+			path = "Home AutomationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1FECA01DB15393008D8F37 /* Home Automation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1FECCD1DB15393008D8F37 /* Build configuration list for PBXNativeTarget "Home Automation" */;
+			buildPhases = (
+				EC1FEC9D1DB15393008D8F37 /* Sources */,
+				EC1FEC9E1DB15393008D8F37 /* Frameworks */,
+				EC1FEC9F1DB15393008D8F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Automation";
+			productName = "Home Automation";
+			productReference = EC1FECA11DB15393008D8F37 /* Home Automation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1FECB81DB15393008D8F37 /* Home AutomationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1FECD01DB15393008D8F37 /* Build configuration list for PBXNativeTarget "Home AutomationTests" */;
+			buildPhases = (
+				EC1FECB51DB15393008D8F37 /* Sources */,
+				EC1FECB61DB15393008D8F37 /* Frameworks */,
+				EC1FECB71DB15393008D8F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1FECBB1DB15393008D8F37 /* PBXTargetDependency */,
+			);
+			name = "Home AutomationTests";
+			productName = "Home AutomationTests";
+			productReference = EC1FECB91DB15393008D8F37 /* Home AutomationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1FECC31DB15393008D8F37 /* Home AutomationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1FECD31DB15393008D8F37 /* Build configuration list for PBXNativeTarget "Home AutomationUITests" */;
+			buildPhases = (
+				EC1FECC01DB15393008D8F37 /* Sources */,
+				EC1FECC11DB15393008D8F37 /* Frameworks */,
+				EC1FECC21DB15393008D8F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1FECC61DB15393008D8F37 /* PBXTargetDependency */,
+			);
+			name = "Home AutomationUITests";
+			productName = "Home AutomationUITests";
+			productReference = EC1FECC41DB15393008D8F37 /* Home AutomationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1FEC991DB15393008D8F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TBGi;
+				TargetAttributes = {
+					EC1FECA01DB15393008D8F37 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC1FECB81DB15393008D8F37 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1FECA01DB15393008D8F37;
+					};
+					EC1FECC31DB15393008D8F37 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1FECA01DB15393008D8F37;
+					};
+				};
+			};
+			buildConfigurationList = EC1FEC9C1DB15393008D8F37 /* Build configuration list for PBXProject "Home Automation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1FEC981DB15393008D8F37;
+			productRefGroup = EC1FECA21DB15393008D8F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1FECA01DB15393008D8F37 /* Home Automation */,
+				EC1FECB81DB15393008D8F37 /* Home AutomationTests */,
+				EC1FECC31DB15393008D8F37 /* Home AutomationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1FEC9F1DB15393008D8F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FECB31DB15393008D8F37 /* LaunchScreen.storyboard in Resources */,
+				EC1FECB01DB15393008D8F37 /* Assets.xcassets in Resources */,
+				EC1FECAE1DB15393008D8F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FECB71DB15393008D8F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FECC21DB15393008D8F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1FEC9D1DB15393008D8F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FECA71DB15393008D8F37 /* RootViewController.swift in Sources */,
+				EC1FECAB1DB15393008D8F37 /* ModelController.swift in Sources */,
+				EC1FECA91DB15393008D8F37 /* DataViewController.swift in Sources */,
+				EC1FECA51DB15393008D8F37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FECB51DB15393008D8F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FECBE1DB15393008D8F37 /* Home_AutomationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1FECC01DB15393008D8F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1FECC91DB15393008D8F37 /* Home_AutomationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1FECBB1DB15393008D8F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1FECA01DB15393008D8F37 /* Home Automation */;
+			targetProxy = EC1FECBA1DB15393008D8F37 /* PBXContainerItemProxy */;
+		};
+		EC1FECC61DB15393008D8F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1FECA01DB15393008D8F37 /* Home Automation */;
+			targetProxy = EC1FECC51DB15393008D8F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1FECAC1DB15393008D8F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1FECAD1DB15393008D8F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1FECB11DB15393008D8F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1FECB21DB15393008D8F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1FECCB1DB15393008D8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1FECCC1DB15393008D8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1FECCE1DB15393008D8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Home Automation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbgi.Home-Automation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC1FECCF1DB15393008D8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Home Automation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbgi.Home-Automation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC1FECD11DB15393008D8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Home AutomationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbgi.Home-AutomationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Automation.app/Home Automation";
+			};
+			name = Debug;
+		};
+		EC1FECD21DB15393008D8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Home AutomationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbgi.Home-AutomationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Automation.app/Home Automation";
+			};
+			name = Release;
+		};
+		EC1FECD41DB15393008D8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Home AutomationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbgi.Home-AutomationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Home Automation";
+			};
+			name = Debug;
+		};
+		EC1FECD51DB15393008D8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Home AutomationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbgi.Home-AutomationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Home Automation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1FEC9C1DB15393008D8F37 /* Build configuration list for PBXProject "Home Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FECCB1DB15393008D8F37 /* Debug */,
+				EC1FECCC1DB15393008D8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1FECCD1DB15393008D8F37 /* Build configuration list for PBXNativeTarget "Home Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FECCE1DB15393008D8F37 /* Debug */,
+				EC1FECCF1DB15393008D8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1FECD01DB15393008D8F37 /* Build configuration list for PBXNativeTarget "Home AutomationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FECD11DB15393008D8F37 /* Debug */,
+				EC1FECD21DB15393008D8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1FECD31DB15393008D8F37 /* Build configuration list for PBXNativeTarget "Home AutomationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1FECD41DB15393008D8F37 /* Debug */,
+				EC1FECD51DB15393008D8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1FEC991DB15393008D8F37 /* Project object */;
+}
